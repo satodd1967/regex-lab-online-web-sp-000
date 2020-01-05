@@ -1,0 +1,7 @@
+stuff = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
+
+
+def test(stuff)
+  stuff.scan(/\w{4}/)
+end
+  
