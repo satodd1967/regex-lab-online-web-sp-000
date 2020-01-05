@@ -1,8 +1,8 @@
 stuff = "I stepped on a Corn Flake, now I'm a cereal killer."
 
-uff.match(/^[A-Z]/) && text.match(/[\.]$/)
-enddef test(stuff)
-  st
+def test(stuff)
+  stuff.match(/^[A-Z]/) && text.match(/[\.]$/)
+end
 
 
   
