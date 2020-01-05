@@ -1,4 +1,4 @@
-stuff = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
+stuff = "I stepped on a Corn Flake, now I'm a cereal killer."
 
 
 def test(stuff)
