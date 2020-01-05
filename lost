@@ -2,6 +2,6 @@ stuff = "extreme briny crepe parking snaps grouping snafu round dog be fork spoo
 
 
 def test(stuff)
-  stuff.scan(/\w{4}/)
+  stuff.scan(/\b\w{5}\b/)
 end
   
