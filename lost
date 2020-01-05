@@ -1,7 +1,7 @@
 stuff = "I stepped on a Corn Flake, now I'm a cereal killer."
 
 def test(stuff)
-  stuff.match(/^[A-Z].*[\.,:;]$/)
+  stuff.match(/[A-Z]\w+[\.,:;]$/)
 end
 
 
