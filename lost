@@ -1,7 +1,7 @@
-stuff = "I stepped on a Corn Flake, now I'm a cereal killer."
+stuff = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
 
 def test(stuff)
-  !!stuff.match(/[A-Z]\w+[\.,:;]/)
+  stuff.scan(/\d{9}/)
 end
 
 
