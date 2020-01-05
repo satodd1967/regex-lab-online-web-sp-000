@@ -2,6 +2,6 @@ stuff = "I stepped on a Corn Flake, now I'm a cereal killer."
 
 
 def test(stuff)
-  stuff.scan(/[A-Z]/g)
+  stuff.scan(/[A-Z]/)
 end
   
