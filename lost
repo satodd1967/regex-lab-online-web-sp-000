@@ -1,7 +1,7 @@
 stuff = "I stepped on a Corn Flake, now I'm a cereal killer."
 
 def test(stuff)
-  stuff.scan(/[A-Z]\w+/) && stuff.scan(/\W/)
+  stuff.scan(/[A-Z]\w+/)
 end
 
 
